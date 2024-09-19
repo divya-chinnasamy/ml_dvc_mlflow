@@ -1,0 +1,30 @@
+{   
+    "ovr_classification":{
+      "Topic" : "Supervised Machine Learning",
+      "sub_topic":"Classification",
+      "Algorithm" : "One Vs Rest Classifier",
+      "IV":["SepalLengthCm","SepalWidthCm","PetalLengthCm","PetalWidthCm"],
+      "DV":["Species"],
+      "input_file":"new_iris.csv",
+      "output_path":"D:/Divya/Projects/MLOPS/MLFLOW/mlflow_projects/model/",
+      "model_name":"one_vs_rest_classification_model",
+      "model_generation":"Yes",
+      "estimator":"SVC()",
+      "n_jobs":"1",
+      "verbose":"0"
+    },
+
+    "ovo_classification":{
+      "Topic" : "Supervised Machine Learning",
+      "sub_topic":"Classification",
+      "Algorithm" : "One Vs One Classifier",
+      "IV":["SepalLengthCm","SepalWidthCm","PetalLengthCm","PetalWidthCm"],
+      "DV":["Species"],
+      "input_file":"new_iris.csv",
+      "output_path":"D:/Divya/Projects/MLOPS/MLFLOW/mlflow_projects/model/",
+      "model_name":"one_vs_one_classification_model",
+      "model_generation":"Yes",
+      "estimator":"LogisticRegression()",
+      "n_jobs":"100"
+    }
+}

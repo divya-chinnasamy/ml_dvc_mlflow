@@ -1,0 +1,5 @@
+outs:
+- md5: c742ecc6c32c39153e7746fa2f82f659
+  size: 31554
+  hash: md5
+  path: telechurn.csv
